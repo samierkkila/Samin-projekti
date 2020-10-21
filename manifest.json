@@ -1,0 +1,22 @@
+{
+  "name": "Samin Screenshot Extension",
+  "version": "1.0",
+  "description": "Ottaa screenshotin ja asettaa sen läpinäkyvänä sivun yläosaan",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "camera.png",
+    "default_title": "Ota näyttökuva!"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "debugger",
+    "declarativeContent",
+    "<all_urls>",
+    "storage"
+  ],
+  "manifest_version": 2
+}
